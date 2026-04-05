@@ -322,11 +322,13 @@ nav ul {
 nav a {
     font-weight: 400;
     font-size: 15px;
-    color: var(--text-dark)
+    color: var(--text-dark);
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    color: var(--bg-cream)
+    transform: translateY(-3px);
 }
 
 nav a img {
